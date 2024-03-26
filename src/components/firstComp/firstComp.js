@@ -1,3 +1,4 @@
+import FileCom from "../../jsxComp/fileCom";
 import SecondComp from "./secondComp/second"; // Assuming correct path to SecondComp
 
 function FirstComp() {
@@ -15,6 +16,7 @@ function FirstComp() {
                 ) :
                 (<p>You cannot see components</p>)
             }
+            <FileCom/>
         </div>
     );
 }
