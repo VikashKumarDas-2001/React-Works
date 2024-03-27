@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Effect from './useEffect/Effect';
+import { ArrayList } from './components/firstComp/ArrayList';
 // import FirstComp from './components/firstComp/firstComp';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
        <div>
         <h1>MY NAME IS VIKASH KUMAR DAS</h1>
         {/* <FirstComp/> */}
-       <Effect/>
+       {/* <Effect/> */}
+       <ArrayList/>
        </div>
       
     </div>
