@@ -3,6 +3,7 @@ import './App.css';
 import Effect from './useEffect/Effect';
 import { ArrayList } from './components/firstComp/ArrayList';
 import { Ref } from './userRef/Ref';
+import { UseMemo } from './useMemo/UseMemo';
 // import FirstComp from './components/firstComp/firstComp';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         {/* <FirstComp/> */}
        {/* <Effect/> */}
        {/* <ArrayList/> */}
-       <Ref/>
+       {/* <Ref/> */}
+       <UseMemo/>
        </div>
       
     </div>
